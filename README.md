@@ -118,13 +118,13 @@ SVG files placed in the `src/svg` directory will be optimized with SVGO and comp
 
 SVG files placed in subdirectories of `src/svg` will be ocmpiled into a single SVG sprite named after the parent directory. For example, files in `src/svg/icons` would compile into a single `icons.svg` file.
 
-### Documentation
+### HTML or docs
 
-Add HTML or markdown (`.md` or `.markdown`) files to your `docs` folder in `src`.
+Add HTML or markdown (`.md` or `.markdown`) files to your `public` folder in `src`.
 
-The `_templates` directory in `src` contains the `_header.html` and `_footer.html` templates. These are automatically added to the beginning and end of each documentation page. You can also add your own templates to the `_templates` directory. Include template files in your docs by writing `@@include('path-to-file')` on its own line in your markup (or markdown).
+The `_templates` directory in `src` contains the `_header.html` and `_footer.html` templates. These are automatically added to the beginning and end of each documentation page. You can also add your own templates to the `_templates` directory. Include template files in your html by writing `@@include('path-to-file')` on its own line in your markup (or markdown).
 
-Files placed in the `assets` directory will be moved over as-is to the `docs` directory. The boilerplate will also add a copy of your `dist` files so you can use them in your documentation.
+Files placed in the `assets` directory will be moved over as-is to the `public` directory. The boilerplate will also add a copy of your `dist` files so you can use them in your documentation.
 
 
 
