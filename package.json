@@ -1,5 +1,5 @@
 {
-  "name": "ryska simple boilerplate",
+  "name": "ryska-simple-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for simple htmldemos, Include sass compilation, image optimization and js tests.",
   "main": "./public/index.html",
